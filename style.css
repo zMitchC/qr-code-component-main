@@ -71,7 +71,7 @@ img{
     }
 }
 
-/* The card will change max-width when the screen arrives at 350px */
+/* The card will be smaller when the screen arrives at 350px */
 @media screen and (max-width: 350px){
     .qrcode-container{
         max-width: 220px;
