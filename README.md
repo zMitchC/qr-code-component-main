@@ -19,16 +19,12 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-Desktop design screenshot
+Desktop design screenshot<br>
 ![Desktop design screenshot](./screenshots/desktop.design_screenshot.png)
 
 
-Mobile design screenshot
+Mobile design screenshot<br>
 ![Mobile design screenshot](./screenshots/mobile.design_screenshot.png)
-
-
-Responsive card on Galaxy Fold
-![Responsive mobile screenshot](./screenshots/mobile.responsive_screenshot.png)
 
 
 
