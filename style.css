@@ -11,10 +11,10 @@ body{
 }
 
 .qrcode-container{
-    max-width: 270px; /* container responsive */
-    padding: 10px;
+    max-width: 285px; /* container responsive */
+    padding: 13px;
 
-    /* This will center the qrcode container on the page */
+    /* This will center the qrcode container on the page --NOT USING-- */
  /* position: absolute;
     top: 0;
     bottom: 0;
@@ -22,13 +22,14 @@ body{
     right: 0;
     margin: auto; */
 
-    border-radius: 10px;
+    border-radius: 13px;
+    box-shadow: 5px 10px 50px rgba(12, 12, 12, 0.292); /* container shadow */
 }
 
 img{
     width: 100%; /* image responsive */
     display: block;
-    border-radius: 10px;
+    border-radius: 13px;
 }
 
 .qrcode-title, .qrcode-paragraph{
@@ -37,17 +38,19 @@ img{
 }
 .qrcode-title{
     margin: 0;
-    color: black;
-    font-size: 16px;
+    color: rgb(32, 32, 32);
+    font-size: 20px;
     font-weight: 700;
-    padding: 10px;
+    padding: 15px;
+    padding-top: 20px;
 }
 .qrcode-paragraph{
     margin: 0;
     color: grey;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 400;
     padding: 10px;
+    padding-top: 0;
 }
 
 .attribution{
@@ -65,5 +68,12 @@ img{
 @media screen and (max-width: 600px){
     .attribution{
         font-size: 11px;
+    }
+}
+
+/* The card will change max-width when the screen arrives at 350px */
+@media screen and (max-width: 350px){
+    .qrcode-container{
+        max-width: 220px;
     }
 }
