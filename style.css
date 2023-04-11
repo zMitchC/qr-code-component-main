@@ -1,5 +1,6 @@
 .qrcode-ctnr{
     width: 250px;
+    max-width: 70%; /* container responsive */
     height: 400px;
     padding: 10px;
     
@@ -17,13 +18,14 @@
 img{
     /* Size for the qr code image */
     width: 250px;
-    height: 250px;
+    max-width: 100%; /* qr code responsive */
+    height: auto; /* not understood this very well */
     border-radius: 10px;
 }
 
 .qrcode-title, .qrcode-par{
     font-family: 'Outfit', 'sans-serif';
-    text-align: center;    
+    text-align: center;
 }
 .qrcode-title{
     margin: 0;
