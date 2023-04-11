@@ -1,29 +1,37 @@
-.qrcode-ctnr{
-    width: 250px;
-    max-width: 70%; /* container responsive */
-    height: 400px;
-    padding: 10px;
+body{
+    background-color: hsl(212, 45%, 89%);
+    /* center the card responsive */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
+    margin: 0;
+}
+
+.qrcode-container{
+    max-width: 270px; /* container responsive */
+    padding: 10px;
+
     /* This will center the qrcode container on the page */
-    position: absolute;
+ /* position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    margin: auto;
+    margin: auto; */
 
     border-radius: 10px;
 }
 
 img{
-    /* Size for the qr code image */
-    width: 250px;
-    max-width: 100%; /* qr code responsive */
-    height: auto; /* not understood this very well */
+    width: 100%; /* image responsive */
+    display: block;
     border-radius: 10px;
 }
 
-.qrcode-title, .qrcode-par{
+.qrcode-title, .qrcode-paragraph{
     font-family: 'Outfit', 'sans-serif';
     text-align: center;
 }
@@ -34,7 +42,7 @@ img{
     font-weight: 700;
     padding: 10px;
 }
-.qrcode-par{
+.qrcode-paragraph{
     margin: 0;
     color: grey;
     font-size: 13px;
@@ -46,4 +54,16 @@ img{
     font-family: 'Outfit', 'sans-serif';
     position: absolute;
     top: 95%;
+}
+
+/* The text change depending on the pixels of the screen */
+@media screen and (min-width: 400px){
+    .attribution{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 600px){
+    .attribution{
+        font-size: 11px;
+    }
 }
