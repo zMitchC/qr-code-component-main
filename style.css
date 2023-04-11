@@ -55,8 +55,8 @@ img{
 
 .attribution{
     font-family: 'Outfit', 'sans-serif';
-    position: absolute;
-    top: 95%;
+    min-width: auto;
+    text-align: center;
 }
 
 /* The text change depending on the pixels of the screen */
@@ -67,7 +67,7 @@ img{
 }
 @media screen and (max-width: 600px){
     .attribution{
-        font-size: 11px;
+        font-size: 15px;
     }
 }
 
