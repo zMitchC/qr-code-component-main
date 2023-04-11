@@ -23,8 +23,12 @@ Desktop design screenshot<br>
 ![Desktop design screenshot](./screenshots/desktop.design_screenshot.png)
 
 
-Mobile design screenshot<br>
+Mobile design screenshot
 ![Mobile design screenshot](./screenshots/mobile.design_screenshot.png)
+
+
+Responsive card on Galaxy Fold
+![Responsive mobile screenshot](./screenshots/mobile.responsive_screenshot.png)
 
 
 
